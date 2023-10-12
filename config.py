@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}</b>\n\n<b>ᴛʜɪꜱ ɪꜱ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ ꜰɪʟᴇꜱᴛᴏʀᴇ ʙᴏᴛ.\n\n📢 ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ & ɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ & ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴇ ʟɪɴᴋ.\n\n📢 ꜱᴇɴᴅ ᴍᴇ ᴀɴʏ ꜰɪʟᴇ & ɪ ᴡɪʟʟ ᴜᴘʟᴏᴀᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ & ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴇ ʟɪɴᴋ.\n\n❌ ᴘᴏʀɴᴏɢʀᴀᴘʜʏ ᴄᴏɴᴛᴇɴᴛꜱ ᴀʀᴇ ꜱᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ.</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ 🤗 {first}</b>\n\n<b>ɪ ᴀᴍ ᴊᴜꜱᴛ ᴀ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴏꜰ ᴍʏ ᴍꜱ_ᴛᴇᴀᴍ ɴᴏᴛʜɪɴɢ ᴍᴏʀᴇ ❤️\n\n👑 ᴍʏ ᴏᴡɴᴇʀ ᴄʜᴀɴɴᴇʟ - <a href="https://t.me/MS_Mihir"<a>@ᴍꜱ_ᴍɪʜɪʀ</a>\n\n🍿 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ - <a href="https://t.me/MS_Movvies"<a>@ᴍꜱ_ᴍᴏᴠᴠɪᴇꜱ</a>\n\n📚 ꜱᴛᴜᴅʏ ᴄʜᴀɴɴᴇʟ - <a href="https://t.me/PadhoDilSe"<a>@ᴘᴀᴅʜᴏᴅɪʟꜱᴇ ❤️</a></b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
