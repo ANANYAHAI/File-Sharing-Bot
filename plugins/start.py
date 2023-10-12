@@ -88,8 +88,10 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("🍿 𝗠𝗦_𝗠𝗼𝘃𝘃𝗶𝗲𝘀", url="https://t.me/MS_Movvies"),
+                    InlineKeyboardButton("𝗣𝗮𝗱𝗵𝗼 𝗗𝗶𝗹 𝗦𝗲 ❤️", url="https://t.me/PadhoDilSe")
+                ],[
+                    InlineKeyboardButton("👑 𝗠𝗦_𝗠𝗶𝗵𝗶𝗿 👑", url="https://t.me/MS_Mihir")
                 ]
             ]
         )
@@ -191,11 +193,19 @@ async def send_text(client: Bot, message: Message):
         
         status = f"""<b><u>Broadcast Completed</u>
 
-Total Users: <code>{total}</code>
-Successful: <code>{successful}</code>
-Blocked Users: <code>{blocked}</code>
-Deleted Accounts: <code>{deleted}</code>
-Unsuccessful: <code>{unsuccessful}</code></b>"""
+╔════❰ ʙʀᴏᴀᴅᴄᴀꜱᴛɪɴɢ  ❱═❍⊱❁۪۪
+║╭━━━━━━━━━━━━━━━➣
+║┣⪼𖨠 Total Users: <code>{total}</code>
+║┃
+║┣⪼𖨠 Successful: <code>{successful}</code>
+║┃
+║┣⪼𖨠 Blocked Users: <code>{blocked}</code>
+║┃
+║┣⪼𖨠 Deleted Accounts: <code>{deleted}</code>
+║┃
+║┣⪼𖨠 Unsuccessful: <code>{unsuccessful}</code>
+║╰━━━━━━━━━━━━━━━➣ 
+╚════❰ ᴘʀᴏɢʀᴇssɪɴɢ ❱══❍⊱❁۪۪</b>"""
         
         return await pls_wait.edit(status)
 
