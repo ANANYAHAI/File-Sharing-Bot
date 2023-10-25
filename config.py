@@ -61,7 +61,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴏɴʟʏ ꜰᴏʀ ᴍʏ ɢᴏᴅ 🙏🏻"
 
     ABOUT_TXT = """<b>
-‣ ᴍʏ ɴᴀᴍᴇ : {}
+‣ ᴍʏ ɴᴀᴍᴇ : FILE STORE
 ‣ ᴄʀᴇᴀᴛᴏʀ: <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
 ‣ ᴜᴘᴅᴀᴛᴇs: <a href='tg://settings'>ʜᴇʀᴇ</a>
 </b>"""
