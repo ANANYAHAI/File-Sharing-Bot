@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ 🤗 {first}</b>\n\n<b>ɪ ᴀᴍ ᴊᴜꜱᴛ ᴀ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴏꜰ ᴍʏ ᴍꜱ_ᴛᴇᴀᴍ ɴᴏᴛʜɪɴɢ ᴍᴏʀᴇ ❤️</b>\n\n<b>👑 ᴍʏ ᴏᴡɴᴇʀ ᴄʜᴀɴɴᴇʟ - @MS_Mihir</b>\n\n<b>🍿 ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ - @MS_Movvies</b>\n\n<b>📚 ꜱᴛᴜᴅʏ ᴄʜᴀɴɴᴇʟ - @PadhoDilSe</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ 🤗 {first}</b>\n\n<b>ɪ ᴄᴀɴ sᴛᴏʀᴇ ғɪʟᴇs ᴀɴᴅ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴡʜɪᴄʜ ᴄᴀɴ ɢɪᴠᴇ ʏᴏᴜ ᴛʜᴀᴛ ғɪʟᴇ 🗃️</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
